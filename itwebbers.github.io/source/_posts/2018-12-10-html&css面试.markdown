@@ -1,0 +1,57 @@
+---
+layout: post
+title: 'html & css面试'
+date: 2018-12-10 16:00:00
+categories:
+  - 面试
+tags:
+  - html
+  - css
+  - HTML5
+  - CSS3
+---
+
+# HTML------------------------------test
+
+- 页面导入样式时，使用 link 和@import 有什么区别？
+
+  > - link 属于 XHTML 标签，处理加载 css 以为，还可以有 RSS 及 rel 属性等等，@import 是 css 提供的，仅支持引入 css；
+  > - 页面被加载时，link 会同时被加载，而@import 必须等页面加载完毕再加载；
+  > - @import 是 css2.1 提出的，只在 IE5 以上才能被识别，而 link 是 XHTML 标签，无兼容问题；
+  > - link 支持使用 js 控制 DOM 去改变样式，而@import 不支持；
+
+- 浏览器的内核
+  > 浏览器的内核主要分为两个部分：渲染引擎，js 引擎
+  >
+  > - trident 内核：IE，360，搜狗等
+  > - gecko 内核：Netscape6 及以上版本，FF，MozillaSuite
+  > - prosto 内核：Opera7 及以上，【opera 内核原为 presto，现在改为 blink】
+  > - webkit 内核：safari，chrome 等 【chrome：webkit 分支----blink】
+
+> - edge 浏览器：渲染引擎--edgeHTML，js 引擎--chakra
+
+- 请描述一下，cookie，sessionStorage 和 localStorage 的区别？
+
+  > cookie 是为了表示用户身份而存储再用户本地终端上的数据（通常经过加密）
+  > cookie 数据始终在同源的 http 请求中携带（即使不需要），即会在浏览器和服务器间来回传递
+  > seesionStroage 和 localStorage 不会自动把数据发给服务器，仅在本地保存；
+  >
+  > - 存储大小
+  >   cookie 数据大小不能超过 4k；sessionStorage 和 localStorage 可以达到 5M
+  > - 有效时间
+  >   localStorage 存储持久数据，主动删除
+  >   sessionStrorage 数据在当前浏览器关闭后自动删除
+  >   cookie 设置的 cookie 国企时间之前一直有效，即使窗口关闭或者浏览器关闭
+
+- HTML5 的 form 如何关闭自动完成？
+
+  > 在 form 或者里面的 input 标签上添加: autoComplete=off
+
+- 如何在页面上实现一个圆形的点击区域？
+
+  > - map + area 或者 svg
+  > - border-radius
+  > - 纯 js 实现
+
+- 1px 问题？
+  > - https://www.jianshu.com/p/d62d22b44ce4

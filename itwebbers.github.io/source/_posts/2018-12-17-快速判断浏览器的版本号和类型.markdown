@@ -1,0 +1,32 @@
+---
+layout: post
+title: '快速判断浏览器的版本和型号'
+date: 2018-12-17
+categories:
+  - JavaScript
+tags:
+  - UX/UI
+  - 🇬🇧
+---
+
+# 快速判断浏览器的版本和型号
+
+- IE 浏览器
+
+```(html)
+    <!--[if IE 8]>
+         <div>您的历览器版本太低，请升级/切换至更高版本</div>
+    <![endif]-->
+```
+
+- safari 浏览器
+
+```(javaScript)
+    var isSafari = /a/._proto_=="//";
+```
+
+- chrome
+
+```(javaScript)
+    var isChrome = Boolean(window.chrome);
+```
