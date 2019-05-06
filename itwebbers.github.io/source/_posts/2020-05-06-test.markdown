@@ -1,0 +1,16 @@
+---
+layout: post
+title: 'test'
+date: 2019-01-08
+categories:
+  - JavaScript
+taga:
+  - JavaScript
+  - DOM
+---
+
+# test
+
+> 德心孤必有邻，心怀志定创业！
+
+
