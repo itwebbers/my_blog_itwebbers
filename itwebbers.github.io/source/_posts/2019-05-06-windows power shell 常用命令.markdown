@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 'test'
+title: 'windows power shell 常用命令'
 date: 2019-05-06
 categories:
   - windows 
   - power shell
-taga:
+tags:
   - power shell
   - windows
 ---
