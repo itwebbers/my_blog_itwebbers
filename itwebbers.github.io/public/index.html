@@ -1,0 +1,2704 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<link href="lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT">
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="万丈红尘三杯酒，千秋大业一壶茶。">
+<meta name="keywords" content="itwebbers web 前端">
+<meta property="og:type" content="website">
+<meta property="og:title" content="itwebbers">
+<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:site_name" content="itwebbers">
+<meta property="og:description" content="万丈红尘三杯酒，千秋大业一壶茶。">
+<meta property="og:locale" content="zh-Hans">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="itwebbers">
+<meta name="twitter:description" content="万丈红尘三杯酒，千秋大业一壶茶。">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/">
+
+
+
+
+
+  <title>itwebbers</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope="" itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">itwebbers</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">德心孤，必有邻；心怀志，定创业！</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            分类
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off" placeholder="搜索..." spellcheck="false" type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com2019/06/04/2019-06-04-c# asp.net之ashx写webRestful接口/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="zander">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="itwebbers">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="2019/06/04/2019-06-04-c# asp.net之ashx写webRestful接口/" itemprop="url">c# asp.net之ashx写webRestful接口</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-06-04T11:09:00+08:00">
+                2019-06-04
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="categories/C/" itemprop="url" rel="index">
+                    <span itemprop="name">C#</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="c-asp-net之ashx写webRestful接口"><a href="#c-asp-net之ashx写webRestful接口" class="headerlink" title="c# asp.net之ashx写webRestful接口"></a>c# asp.net之ashx写webRestful接口</h1><h3 id="使用vs2019创建项目"><a href="#使用vs2019创建项目" class="headerlink" title="使用vs2019创建项目"></a>使用vs2019创建项目</h3><ol>
+<li>打开vs2019，点击顶部tabs 文件 –&gt; 新建 –&gt; 项目</li>
+<li><p>12 </p>
+<blockquote>
+<p>如果在字符串的左引号前添加<code>$</code>，则可以在大括号之间的字符串内包括变量</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Console.WriteLine($&quot;i am &#123;name&#125;&quot;);</span><br></pre></td></tr></table></figure>
+</blockquote>
+</li>
+<li><p>字符串去除两端空格</p>
+</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">// 字符去除两端空格</span><br><span class="line">//name = name.Trim();</span><br><span class="line">//name = name.TrimStart();</span><br><span class="line">name = name.TrimEnd();</span><br><span class="line">Console.WriteLine($&quot;[&#123;name&#125;&quot;;</span><br></pre></td></tr></table></figure>
+<ol start="3">
+<li><p>替换字符串的字符</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">string str = &quot;all is well&quot;;</span><br><span class="line">str = str.Replace(&quot;is&quot;, &quot;was&quot;);</span><br><span class="line">Console.WriteLine(str);</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>查找字符串文本</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">// 查找字符串中的文本</span><br><span class="line">string str = &quot;zander&quot;;</span><br><span class="line">Console.WriteLin(str.Contains(&quot;a&quot;));</span><br><span class="line"></span><br><span class="line">// 在字符串开始和结束搜索字符</span><br><span class="line">string str = &quot;You say goodbye, and I say hello&quot;;</span><br><span class="line">Console.WriteLine(str.StartsWith(&quot;You&quot;));</span><br><span class="line">Console.WriteLine(str.StartsWith(&quot;and&quot;));</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>比较字符串</p>
+</li>
+<li>修改字符串内容</li>
+<li>确定字符串是否表示数字</li>
+<li>分隔字符串</li>
+<li>将多个字符串合并成一个字符串</li>
+<li>在字符串中搜索文本</li>
+</ol>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com2019/05/07/2019-05-07-c#-程序结构/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="zander">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="itwebbers">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="2019/05/07/2019-05-07-c#-程序结构/" itemprop="url">C#程序结构</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-05-07T22:09:00+08:00">
+                2019-05-07
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="categories/C/" itemprop="url" rel="index">
+                    <span itemprop="name">C#</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="C-程序结构"><a href="#C-程序结构" class="headerlink" title="C#程序结构"></a>C#程序结构</h1><ol>
+<li>C#中的程序结构包括：程序，命名空间，类型，成员，程序集</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line">using System;</span><br><span class="line">namespace Acme.Collections</span><br><span class="line">&#123;</span><br><span class="line">    public class Stack</span><br><span class="line">    &#123;</span><br><span class="line">        Entry top;</span><br><span class="line">        public void Push(object data) </span><br><span class="line">        &#123;</span><br><span class="line">            top = new Entry(top, data);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        public object Pop() </span><br><span class="line">        &#123;</span><br><span class="line">            if (top == null)</span><br><span class="line">            &#123;</span><br><span class="line">                throw new InvalidOperationException();</span><br><span class="line">            &#125;</span><br><span class="line">            object result = top.data;</span><br><span class="line">            top = top.next;</span><br><span class="line">            return result;</span><br><span class="line">        &#125;</span><br><span class="line">        </span><br><span class="line">        class Entry</span><br><span class="line">        &#123;</span><br><span class="line">            public Entry next;</span><br><span class="line">            public object data;</span><br><span class="line">            public Entry(Entry next, object data)</span><br><span class="line">            &#123;</span><br><span class="line">                this.next = next;</span><br><span class="line">                this.data = data;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com2019/05/07/2019-05-08-c# 处理字符串/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="zander">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="itwebbers">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="2019/05/07/2019-05-08-c# 处理字符串/" itemprop="url">C#处理字符串</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-05-07T22:09:00+08:00">
+                2019-05-07
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="categories/C/" itemprop="url" rel="index">
+                    <span itemprop="name">C#</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="C-处理字符串"><a href="#C-处理字符串" class="headerlink" title="C#处理字符串"></a>C#处理字符串</h1><h3 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World"></a>Hello World</h3><ol>
+<li><p>字符串内插</p>
+<blockquote>
+<p>如果在字符串的左引号前添加<code>$</code>，则可以在大括号之间的字符串内包括变量</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Console.WriteLine($&quot;i am &#123;name&#125;&quot;);</span><br></pre></td></tr></table></figure>
+</blockquote>
+</li>
+<li><p>字符串去除两端空格</p>
+</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">// 字符去除两端空格</span><br><span class="line">//name = name.Trim();</span><br><span class="line">//name = name.TrimStart();</span><br><span class="line">name = name.TrimEnd();</span><br><span class="line">Console.WriteLine($&quot;[&#123;name&#125;&quot;;</span><br></pre></td></tr></table></figure>
+<ol start="3">
+<li><p>替换字符串的字符</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">string str = &quot;all is well&quot;;</span><br><span class="line">str = str.Replace(&quot;is&quot;, &quot;was&quot;);</span><br><span class="line">Console.WriteLine(str);</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>查找字符串文本</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">// 查找字符串中的文本</span><br><span class="line">string str = &quot;zander&quot;;</span><br><span class="line">Console.WriteLin(str.Contains(&quot;a&quot;));</span><br><span class="line"></span><br><span class="line">// 在字符串开始和结束搜索字符</span><br><span class="line">string str = &quot;You say goodbye, and I say hello&quot;;</span><br><span class="line">Console.WriteLine(str.StartsWith(&quot;You&quot;));</span><br><span class="line">Console.WriteLine(str.StartsWith(&quot;and&quot;));</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>比较字符串</p>
+</li>
+<li>修改字符串内容</li>
+<li>确定字符串是否表示数字</li>
+<li>分隔字符串</li>
+<li>将多个字符串合并成一个字符串</li>
+<li>在字符串中搜索文本</li>
+</ol>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com2019/05/06/2019-05-06-windows power shell 常用命令/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="zander">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="itwebbers">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="2019/05/06/2019-05-06-windows power shell 常用命令/" itemprop="url">windows power shell 常用命令</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-05-06T00:00:00+08:00">
+                2019-05-06
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="categories/windows/" itemprop="url" rel="index">
+                    <span itemprop="name">windows</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="categories/windows/power-shell/" itemprop="url" rel="index">
+                    <span itemprop="name">power shell</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="Windows-power-shell-常用命令"><a href="#Windows-power-shell-常用命令" class="headerlink" title="Windows power shell 常用命令"></a>Windows power shell 常用命令</h1><blockquote>
+<p>德心孤必有邻，心怀志定创业！</p>
+</blockquote>
+<ol>
+<li>创建文件</li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">new-item filesname.cs</span><br></pre></td></tr></table></figure>
+<ol start="2">
+<li>创建文件夹</li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">new-item directoryname -type derictory</span><br></pre></td></tr></table></figure>
+<ol start="3">
+<li>删除文件</li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">// 删除目录下指定的文件</span><br><span class="line">remove-item c:/directoryname filesname.cs</span><br><span class="line"></span><br><span class="line">// 删除目录下所有的文件</span><br><span class="line">remove-item c:/directoryname/*</span><br><span class="line"></span><br><span class="line">// 删除---排除某类型文件</span><br><span class="line">remove-item c:/directoryname/* -exclude *.cs</span><br><span class="line"></span><br><span class="line">// 仅仅删除某种类型文件</span><br><span class="line">remove-item c:/directoryname/* -include *.cs</span><br></pre></td></tr></table></figure>
+<ol start="4">
+<li>打开文件</li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">// .\文件名.扩展名</span><br><span class="line"></span><br><span class="line">.\filesname.cs</span><br></pre></td></tr></table></figure>
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-tags" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com2019/01/08/2019-01-08-DOM Event (事件)/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="zander">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="itwebbers">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="2019/01/08/2019-01-08-DOM Event (事件)/" itemprop="url">DOM 事件详解</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-01-08T00:00:00+08:00">
+                2019-01-08
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="categories/JavaScript/" itemprop="url" rel="index">
+                    <span itemprop="name">JavaScript</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="DOM-事件"><a href="#DOM-事件" class="headerlink" title="DOM 事件"></a>DOM 事件</h1><h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><blockquote>
+<p>DOM 使 JavaScript 有能力怼 HTML 上的事件做出反应。<br><code>DOM事件的级别：</code></p>
+</blockquote>
+<ul>
+<li>DOM0 element.onclick = function(){}</li>
+<li>DOM2 element.addEventListener(“click”, function(){})</li>
+<li>DOM3 element.addEventListener(“keyup”, function(){})</li>
+</ul>
+<h2 id="DOM-事件模型"><a href="#DOM-事件模型" class="headerlink" title="DOM 事件模型"></a>DOM 事件模型</h2><blockquote>
+<p>DOM 事件模型分为两种，一类是 IE 的冒泡事件模型，另一类是 DOM 标准定义的冒泡型与捕获型的事件。</p>
+</blockquote>
+<h2 id="DOM-事件流"><a href="#DOM-事件流" class="headerlink" title="DOM 事件流"></a>DOM 事件流</h2><p>事件流： window -&gt; 捕获 -&gt; 目标阶段 -&gt; 冒泡 -&gt; window</p>
+<h2 id="描述-DOM-事件捕获的具体流程"><a href="#描述-DOM-事件捕获的具体流程" class="headerlink" title="描述 DOM 事件捕获的具体流程"></a>描述 DOM 事件捕获的具体流程</h2><img src="/public/images/eventflow.svg">
+<!-- ![DOM事件流](../assets/images/eventflow.svg) -->
+<h2 id="Event-对象的常见应用"><a href="#Event-对象的常见应用" class="headerlink" title="Event 对象的常见应用"></a>Event 对象的常见应用</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">event.preventDefault() <span class="comment">// 阻止默认事件</span></span><br><span class="line">event.stopPropagation() <span class="comment">// 阻止事件冒泡</span></span><br><span class="line">event.stopImmediatePropagation() <span class="comment">// 事件响应优先级</span></span><br><span class="line">event.currentTarget <span class="comment">// 当前绑定的事件对象</span></span><br><span class="line">event.target</span><br></pre></td></tr></table></figure>
+<h2 id="自定义事件"><a href="#自定义事件" class="headerlink" title="自定义事件"></a>自定义事件</h2><p><a href="https://www.cnblogs.com/LuckyWinty/p/5796190.html" target="_blank" rel="noopener">js 的观察者模式创建自定义事件</a></p>
+<ul>
+<li><p>Event()构造函数，创建一个新的事件对象 event</p>
+</li>
+<li><p>CustomEvent()创建一个自定义事件</p>
+</li>
+<li>document.CreateEvent()创建一个新的事件对象 event，随之必须调用自身的 init 方法进行初始化</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 创建事件</span></span><br><span class="line"><span class="keyword">var</span> create = <span class="built_in">document</span>.createEvent(<span class="string">"Event"</span>)</span><br><span class="line"><span class="comment">// 定义事件名为'build'</span></span><br><span class="line">create.initEvent(<span class="string">"build"</span>, <span class="literal">true</span>, <span class="literal">true</span>)</span><br><span class="line"><span class="comment">// 监听事件</span></span><br><span class="line">element.addEventListener(<span class="string">"buiild"</span>, <span class="function"><span class="keyword">function</span>(<span class="params">e</span>)</span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(e.target)</span><br><span class="line">&#125;, <span class="literal">false</span>)</span><br><span class="line"><span class="comment">// 出发对象可以是任何元素或者其他事件目标</span></span><br><span class="line">element.dispatchEvent(event)</span><br></pre></td></tr></table></figure>
+<h2 id="自定义事件封装"><a href="#自定义事件封装" class="headerlink" title="自定义事件封装"></a><code>自定义事件封装</code></h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="keyword">try</span>&#123;</span><br><span class="line">        <span class="comment">// a : While a window.CustomEvent object exists, it cannot be called as a constructor.</span></span><br><span class="line">        <span class="comment">// b : There is no window.CustomEvent object</span></span><br><span class="line">        <span class="keyword">new</span> <span class="built_in">window</span>.CustomEvent(<span class="string">'T'</span>);</span><br><span class="line">    &#125;<span class="keyword">catch</span>(e)&#123;</span><br><span class="line">        <span class="keyword">var</span> CustomEvent = <span class="function"><span class="keyword">function</span>(<span class="params">event, params</span>)</span>&#123;</span><br><span class="line">            params = params || &#123; <span class="attr">bubbles</span>: <span class="literal">false</span>, <span class="attr">cancelable</span>: <span class="literal">false</span>, <span class="attr">detail</span>: <span class="literal">undefined</span> &#125;;</span><br><span class="line"></span><br><span class="line">            <span class="keyword">var</span> evt = <span class="built_in">document</span>.createEvent(<span class="string">'CustomEvent'</span>);</span><br><span class="line"></span><br><span class="line">            evt.initCustomEvent(event, params.bubbles, params.cancelable, params.detail);</span><br><span class="line"></span><br><span class="line">            <span class="keyword">return</span> evt;</span><br><span class="line">        &#125;;</span><br><span class="line"></span><br><span class="line">        CustomEvent.prototype = <span class="built_in">window</span>.Event.prototype;</span><br><span class="line"></span><br><span class="line">        <span class="built_in">window</span>.CustomEvent = CustomEvent;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;)();</span><br></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-tags" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com2019/01/08/2019-01-08-ES6...rest和三点扩展运算符/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="zander">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="itwebbers">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="2019/01/08/2019-01-08-ES6...rest和三点扩展运算符/" itemprop="url">ES6‘...’rest和三点扩展运算符</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-01-08T00:00:00+08:00">
+                2019-01-08
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="categories/ES6/" itemprop="url" rel="index">
+                    <span itemprop="name">ES6</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="ES6-的-rest-参数和扩展运算符"><a href="#ES6-的-rest-参数和扩展运算符" class="headerlink" title="ES6 的 rest 参数和扩展运算符"></a>ES6 的 rest 参数和扩展运算符</h1><h2 id="扩展运算符"><a href="#扩展运算符" class="headerlink" title="扩展运算符"></a>扩展运算符</h2><ul>
+<li>含义<blockquote>
+<p>扩展运算符是三个点(…)，它好比 rest 参数的逆运算，将一个数组转为用逗号分隔的参数序列</p>
+</blockquote>
+</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="number">1</span>, ...[<span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>], <span class="number">5</span>);    <span class="comment">// 1,2,3,4,5</span></span><br><span class="line"></span><br><span class="line">[...document.querySelectorAll(<span class="string">'all'</span>)]   <span class="comment">// [&lt;div&gt;, &lt;div&gt;, &lt;div&gt;]</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>扩展运算符主要是结合普通函数使用</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 普通函数一起使用</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">fun</span>(<span class="params">a, b, c, d, e</span>)</span>&#123;&#125;</span><br><span class="line"><span class="keyword">const</span> args = [<span class="number">0</span>, <span class="number">2</span>]</span><br><span class="line">fun(<span class="number">-1</span>, ...args, <span class="number">2</span>, ...[<span class="number">3</span>])</span><br><span class="line"><span class="comment">// 扩展运算符后面还可以放置表达式</span></span><br><span class="line">cosnt arr = [</span><br><span class="line">    ...(x &gt; <span class="number">0</span> ? [<span class="string">'x'</span>] : []), <span class="string">'y'</span></span><br><span class="line">]</span><br></pre></td></tr></table></figure>
+<ul>
+<li>替代函数的 apply 方法</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// ES5 是写法</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">fun</span>(<span class="params">x, y, z</span>)</span>&#123;</span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">var</span> args = [<span class="number">0</span>, <span class="number">1</span>, <span class="number">2</span>]</span><br><span class="line">fun.apply(<span class="literal">null</span>, args)</span><br><span class="line"></span><br><span class="line"><span class="comment">// ES6 的写法</span></span><br><span class="line"><span class="keyword">let</span> args = [<span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>]</span><br><span class="line">fun(...args)</span><br></pre></td></tr></table></figure>
+<ul>
+<li>合并或者连接数组</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> arr1 = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br><span class="line"><span class="keyword">let</span> arr2 = [<span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>]</span><br><span class="line"></span><br><span class="line"><span class="comment">// 代替push方法</span></span><br><span class="line">arr1.push(...arr2)</span><br><span class="line"></span><br><span class="line"><span class="comment">// 代替concat方法</span></span><br><span class="line">[...arr1, ...arr2]</span><br></pre></td></tr></table></figure>
+<ul>
+<li>复制数组</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> arr1 = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>];</span><br><span class="line"><span class="comment">// 将arr1复制给arr2</span></span><br><span class="line"><span class="keyword">const</span> arr2 = [...arr1];</span><br></pre></td></tr></table></figure>
+<ul>
+<li>解构赋值</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// ES5</span></span><br><span class="line"><span class="keyword">let</span> x = arr[<span class="number">0</span>];</span><br><span class="line"><span class="keyword">let</span> restArr = arr.slice(<span class="number">1</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">// ES6</span></span><br><span class="line"><span class="keyword">let</span> [x, ...restArr] = arr;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>字符串转化成数组</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> str = <span class="string">'Hello World'</span></span><br><span class="line"><span class="keyword">const</span> arr = [...str]</span><br></pre></td></tr></table></figure>
+<ul>
+<li>类数组转数组</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> nodeList = <span class="built_in">document</span>.querySelect(<span class="string">'div'</span>)</span><br><span class="line"><span class="keyword">let</span> nodeArr = [...nodeList]</span><br><span class="line"></span><br><span class="line"><span class="comment">// 只可以将可以枚举的类数组对象转换成数组</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>map 和 Set 结构</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 数组去重</span></span><br><span class="line">[...new <span class="built_in">Set</span>(arr)]</span><br><span class="line"></span><br><span class="line"><span class="comment">// map</span></span><br></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com2019/01/08/2019-01-09-sass中文文档/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="zander">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="itwebbers">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="2019/01/08/2019-01-09-sass中文文档/" itemprop="url">JavaScript 本地对象和内置对象 && Browser 对象 && HTML DOM 对象</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-01-08T00:00:00+08:00">
+                2019-01-08
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="categories/JavaScript/" itemprop="url" rel="index">
+                    <span itemprop="name">JavaScript</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="sass-中文文档"><a href="#sass-中文文档" class="headerlink" title="sass 中文文档"></a>sass 中文文档</h1><blockquote>
+<p>sass css 预编译器，是由按强化 css 的工具。</p>
+</blockquote>
+<h2 id="sass-特点"><a href="#sass-特点" class="headerlink" title="sass 特点"></a>sass 特点</h2><ol>
+<li>完美兼容 css3</li>
+<li>在 css 基础上增加了<code>变量</code>，<code>嵌套（nesting）</code>,<code>混合（mixins）</code>,<code>导入（import）</code>;</li>
+<li>通过函数进行颜色值与属性值的计算</li>
+<li>提供控制指令等高级功能</li>
+<li>自定义输出格式</li>
+</ol>
+<h2 id="css-功能扩展"><a href="#css-功能扩展" class="headerlink" title="css 功能扩展"></a>css 功能扩展</h2><ol>
+<li>嵌套规则<blockquote>
+<p>Sass 允许将一套 css 样式嵌套进另一套样式中，内层的样式将它外层的选择器作为父选择器</p>
+</blockquote>
+</li>
+</ol>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">header</span> &#123;</span><br><span class="line">  <span class="attribute">color</span>: red;</span><br><span class="line">  nav &#123;</span><br><span class="line">    <span class="selector-tag">font-size</span>: 14<span class="selector-tag">px</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ol start="2">
+<li>父选择器 &amp;</li>
+</ol>
+<blockquote>
+<p>用<code>&amp;</code>代表嵌套规则外层的父选择器</p>
+</blockquote>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">a</span> &#123;</span><br><span class="line">  <span class="attribute">color</span>: blue;</span><br><span class="line">  &amp;:hover &#123;</span><br><span class="line">    <span class="selector-tag">color</span>: <span class="selector-tag">red</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ol start="3">
+<li>属性嵌套</li>
+</ol>
+<blockquote>
+<p>为了方便管理复杂的属性，同时也为了避免重复的输入，Sass 允许将属性嵌套在命名空间中</p>
+</blockquote>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.funky</span> &#123;</span><br><span class="line">  font &#123;</span><br><span class="line">    <span class="selector-tag">family</span>: <span class="selector-tag">fantasy</span>;</span><br><span class="line">    <span class="selector-tag">size</span>: 15<span class="selector-tag">px</span>;</span><br><span class="line">    <span class="selector-tag">weight</span>: <span class="selector-tag">bold</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ol start="5">
+<li>注释： <code>/* */</code> 与 <code>//</code><blockquote>
+<p>Sass 支持标准的 css 多行注释<code>/* */</code>，以及单行注释 <code>//</code>, 前者会被完整输出到编译后的 css 文件中，而后者则不会</p>
+</blockquote>
+</li>
+</ol>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* This comment is</span></span><br><span class="line"><span class="comment"> * several lines long.</span></span><br><span class="line"><span class="comment"> * since it uses the CSS comment syntax,</span></span><br><span class="line"><span class="comment"> * it will appear in the CSS output. */</span></span><br><span class="line"><span class="selector-tag">body</span> &#123;</span><br><span class="line">  <span class="attribute">color</span>: black;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">// These comments are only one line long each.</span><br><span class="line">// They won't appear in the CSS output,</span><br><span class="line">// since they use the single-line comment syntax.</span><br><span class="line"><span class="selector-tag">a</span> &#123;</span><br><span class="line">  <span class="attribute">color</span>: green;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="SassScript"><a href="#SassScript" class="headerlink" title="SassScript"></a>SassScript</h2><ol>
+<li>变量 <code>$</code> (Variable: \$)<blockquote>
+<p>SassScript 最普遍的用法就是变量，变量以美元符号开头，赋值方法与 css 属性的写法一样</p>
+</blockquote>
+</li>
+</ol>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">// 变量声明</span><br><span class="line">$width: 100px;</span><br><span class="line"></span><br><span class="line">// 调用方式</span><br><span class="line"><span class="selector-class">.box</span> &#123;</span><br><span class="line">  <span class="attribute">width</span>: $width;</span><br><span class="line">&#125;</span><br><span class="line">// 将局部变量转换为全局变量可以在其后添加 !global</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.box</span> &#123;</span><br><span class="line">  $width: 100px !global;</span><br><span class="line">  width: $width;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ol start="2">
+<li><p>数据类型</p>
+<blockquote>
+<p>SassScript 支持 6 中主要的数据类型</p>
+</blockquote>
+<ul>
+<li>数字</li>
+<li>字符串</li>
+<li>颜色</li>
+<li>布尔值 true/false</li>
+<li>空值，null</li>
+<li>数组</li>
+<li><p>maps</p>
+<p>2.1 字符串</p>
+<blockquote>
+<p>有引号字符串和无引号字符串；使用字符串变量的方式： <code>#{}</code></p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li><p>运算</p>
+<blockquote>
+<p>所有数据类型均支持相等运算 == 或 !=，此外，每种数据类型也有其各自支持的运算方式。</p>
+</blockquote>
+</li>
+</ol>
+<ul>
+<li>数字运算<blockquote>
+<p>SassScript 支持数字的加减乘除、取整等运算 (+, -, *, /, %)，如果必要会在不同单位间转换值</p>
+</blockquote>
+</li>
+</ul>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">p</span> &#123;</span><br><span class="line">  font: 10px/8px; // Plain CSS, no division</span><br><span class="line">  $width: 1000px;</span><br><span class="line">  width: $width/2; // Uses a variable, does division</span><br><span class="line">  width: round(1.5) / 2; // Uses a function, does division</span><br><span class="line">  height: (500px/2); // Uses parentheses, does division</span><br><span class="line">  margin-left: 5px + 8px/2px; // Uses +, does division</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>圆括号用来影响运算的顺序</li>
+</ul>
+<ol start="4">
+<li>函数指令</li>
+</ol>
+<blockquote>
+<p>Sass 支持自定义函数，并能在任何属性值或 Sass script 中使用：</p>
+</blockquote>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">$grid-width: 40px;</span><br><span class="line">$gutter-width: 10px;</span><br><span class="line"></span><br><span class="line">@<span class="keyword">function</span> grid-width($n) &#123;</span><br><span class="line">  @<span class="keyword">return</span> $n * $grid-width + ($n - <span class="number">1</span>) * $gutter-width;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#sidebar</span> &#123;</span><br><span class="line">  <span class="attribute">width</span>: <span class="built_in">grid-width</span>(5);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="Rules-与指令-Rules-and-Directives"><a href="#Rules-与指令-Rules-and-Directives" class="headerlink" title="@-Rules 与指令 (@-Rules and Directives)"></a>@-Rules 与指令 (@-Rules and Directives)</h2><ol>
+<li><p>@import</p>
+<blockquote>
+<p>Sass 拓展了@import 的功能，允许其导入 SCSS 或 SaSS 文件。被导入的文件将合并编译到同一个 css 文件中，另外，被导入的文件中所包含的变量或者混合指令（mixin）都可以在导入的文件中使用。</p>
+</blockquote>
+<ul>
+<li>嵌套@import</li>
+</ul>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">// 假设 example.scss 文件包含以下样式：</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.example</span> &#123;</span><br><span class="line">  <span class="attribute">color</span>: red;</span><br><span class="line">&#125;</span><br><span class="line">// 然后导入到 #main 样式内</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#main</span> &#123;</span><br><span class="line">  @import 'example';</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>@media</p>
+</li>
+<li><p>@extend</p>
+<blockquote>
+<p>在设计网页的时候常常遇到这种情况：一个元素使用的样式与另一个元素完全相同，但又添加了额外的样式。通常会在 HTML 中给元素定义两个 class，一个通用样式，一个特殊样式</p>
+</blockquote>
+</li>
+</ol>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.error</span> &#123;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">1px</span> <span class="number">#f00</span>;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="number">#fdd</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.seriousError</span> &#123;</span><br><span class="line">  @extend .error;</span><br><span class="line">  <span class="selector-tag">border-width</span>: 3<span class="selector-tag">px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="混合指令（Mixin-Directives）"><a href="#混合指令（Mixin-Directives）" class="headerlink" title="混合指令（Mixin Directives）"></a>混合指令（Mixin Directives）</h2><blockquote>
+<p>混合指令（Mixin）用于定义可重复使用的样式，避免了使用无意的 class，比如.float-left。混合指令可以包含所有的 css 规则，绝大部分 Sass 规则，甚至通过参数功能引入变量，输出多样化的样式。</p>
+</blockquote>
+<ul>
+<li>定义混合指令 @mixin (Defining a Mixin: @mixin)</li>
+</ul>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">@<span class="keyword">mixin</span> clearfix &#123;</span><br><span class="line">  <span class="selector-tag">display</span>: <span class="selector-tag">inline-block</span>;</span><br><span class="line">  &amp;<span class="selector-pseudo">:after</span> &#123;</span><br><span class="line">    <span class="attribute">content</span>: <span class="string">'.'</span>;</span><br><span class="line">    <span class="attribute">display</span>: block;</span><br><span class="line">    <span class="attribute">height</span>: <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">clear</span>: both;</span><br><span class="line">    <span class="attribute">visibility</span>: hidden;</span><br><span class="line">  &#125;</span><br><span class="line">  * <span class="selector-tag">html</span> &amp; &#123;</span><br><span class="line">    <span class="attribute">height</span>: <span class="number">1px</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li><p>使用 Mixin 样式： <code>@include</code></p>
+<blockquote>
+<p>使用<code>@include</code>之快令引入混合样式，格式是在其后添加混合名称</p>
+</blockquote>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.page-title</span> &#123;</span><br><span class="line">  @include clearfix;</span><br><span class="line">  <span class="selector-tag">padding</span>: 4<span class="selector-tag">px</span>;</span><br><span class="line">  <span class="selector-tag">margin-top</span>: 10<span class="selector-tag">px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com2019/01/08/2019-01-08-JavaScript内置对象和Windows内置对象/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="zander">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="itwebbers">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="2019/01/08/2019-01-08-JavaScript内置对象和Windows内置对象/" itemprop="url">JavaScript 本地对象和内置对象 && Browser 对象 && HTML DOM 对象</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-01-08T00:00:00+08:00">
+                2019-01-08
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="categories/JavaScript/" itemprop="url" rel="index">
+                    <span itemprop="name">JavaScript</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <blockquote>
+<p>JavaScript 本地对象和内置对象 &amp;&amp; Browser 对象 &amp;&amp; HTML DOM 对象</p>
+</blockquote>
+<ul>
+<li><p>JavaScript 本地对象和内置对象</p>
+<ol>
+<li>Array</li>
+<li>Boolean</li>
+<li>String</li>
+<li>Date</li>
+<li>MAth</li>
+<li>Number</li>
+<li>RegExp</li>
+<li>Global</li>
+</ol>
+</li>
+<li><p>Browser BOM 对象</p>
+<ol>
+<li>window</li>
+<li>Navigator</li>
+<li>Screen</li>
+<li>History</li>
+<li>Location</li>
+</ol>
+</li>
+<li><p>HTML DOM 对象</p>
+<ol>
+<li>Document</li>
+<li>Element</li>
+<li>Attribute</li>
+<li>Event</li>
+</ol>
+</li>
+</ul>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-tags" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com2018/12/25/2018-12-25-vue之 scoped css/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="zander">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="itwebbers">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="2018/12/25/2018-12-25-vue之 scoped css/" itemprop="url">vue之scoped css</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-12-25T00:00:00+08:00">
+                2018-12-25
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="categories/Vuejs/" itemprop="url" rel="index">
+                    <span itemprop="name">Vuejs</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="Scoped-CSS-详解"><a href="#Scoped-CSS-详解" class="headerlink" title="Scoped CSS 详解"></a>Scoped CSS 详解</h1><blockquote>
+<p>当<code>&lt;style&gt;</code>标签有<code>scoped</code>属性时，它的 CSS 只作用于当前组件中的元素，这类似与 Shadow DOM 中的样式封装。他有一些注意事项，但不许任何 polyfill。它通过 PostCSS 来实现以下转换</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&lt;style scoped&gt;</span><br><span class="line">.example &#123;</span><br><span class="line">  color: red;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/style&gt;</span><br><span class="line"></span><br><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;div class=&quot;example&quot;&gt;hi&lt;/div&gt;</span><br><span class="line">&lt;/template&gt;</span><br></pre></td></tr></table></figure>
+<h2 id="子组件的根元素"><a href="#子组件的根元素" class="headerlink" title="子组件的根元素"></a>子组件的根元素</h2><blockquote>
+<p>使用<code>scoped</code>后，父组件的样式将不会渗透到子组件中。不过一个子组件的根节点会同时受其父组件的 scoped CSS 和子组件 scoped CSS 的影响。这样涉及是为了让父组件可以从布局的角度出发，调整其子组件根元素的样式。</p>
+</blockquote>
+<h2 id="深度作用选择器"><a href="#深度作用选择器" class="headerlink" title="深度作用选择器"></a>深度作用选择器</h2><blockquote>
+<p>如果你希望<code>scoped</code>样式中的一个选择器能够作用得更深，例如影响子组件，你可以使用 <code>&gt;&gt;&gt;</code> 操作符：</p>
+</blockquote>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="selector-tag">style</span> <span class="selector-tag">scoped</span>&gt;</span><br><span class="line">  <span class="selector-class">.a</span> &gt;&gt;&gt; <span class="selector-class">.b</span> &#123; <span class="comment">/* ... */</span> &#125;</span><br><span class="line">&lt;/style&gt;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>上述的代码会被编译成：</p>
+</blockquote>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.a</span><span class="selector-attr">[data-v-f3f3eg9]</span> <span class="selector-class">.b</span> &#123;</span><br><span class="line">  <span class="comment">/* ... */</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<font color="red">有些像 Sass 之类的预处理器无法正确解析 <code>&gt;&gt;&gt;</code>。这种情况下你可以使用<code>/deep/</code> 操作符取而代之这个<code>&gt;&gt;&gt;</code>的别名，同样可以正常工作</font>
+</blockquote>
+<h2 id="动态生成的内容"><a href="#动态生成的内容" class="headerlink" title="动态生成的内容"></a>动态生成的内容</h2><blockquote>
+<p>通过<code>v-html</code>创建的 DOM 内容不受 Scoped 样式影响，但是你仍然可以通过深度作用选择器来为他们设置样式。</p>
+</blockquote>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com2018/12/20/2018-12-10-计算机组成原理/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="zander">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="itwebbers">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="2018/12/20/2018-12-10-计算机组成原理/" itemprop="url">计算机组成原理</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-12-20T17:39:57+08:00">
+                2018-12-20
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="categories/Computer/" itemprop="url" rel="index">
+                    <span itemprop="name">Computer</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="计算机组成原理"><a href="#计算机组成原理" class="headerlink" title="计算机组成原理"></a>计算机组成原理</h1><blockquote>
+<p><a href="https://blog.csdn.net/Adjerrekaf/article/details/78880089" target="_blank" rel="noopener">https://blog.csdn.net/Adjerrekaf/article/details/78880089</a></p>
+</blockquote>
+<ul>
+<li><p>计算机系统组成？</p>
+<ul>
+<li>软件</li>
+<li>硬件</li>
+</ul>
+</li>
+<li><p>计算机系统 5 层层次结构从下到上？</p>
+<blockquote>
+<p>微程序机器 —-&gt; 传统机器 —–&gt; 操作系统机器 ——&gt; 汇编语言机器 —-&gt; 高级语言机器<br>——-微程序机器和传统机器是物理机， 其他的都是虚拟机</p>
+</blockquote>
+</li>
+<li><p>在计算机系统结构中，什么是解释，什么是翻译？</p>
+<ul>
+<li>翻译： 将一种语言编写的程序全部翻译程另外一种语言，然后执行</li>
+<li>解释： 将一种语言编写的程序一条语句翻译成另一种语言的一条或者多条语句，然后执行，执行完这条语句后，然后再解释下一句；</li>
+</ul>
+</li>
+<li><p>电子计算机的基本结构形式：</p>
+<ul>
+<li>冯诺伊曼机： 运算器 + 控制器 + 存储器 + 输入设备 + 输出设备</li>
+<li>特征： 数字计算机的机制采用二进制；计算机应该按照程序顺序执行；</li>
+</ul>
+</li>
+<li><p>什么是存储单元，存储字，存储子长，存储体？</p>
+<ul>
+<li>存储单元： 存储一个存储字并具有特定存储地址的存储单位</li>
+<li>存储字：一个存储单元中存放的所有二进制数据，按照某个地址访问某个存储单元获取的二进制数据</li>
+<li>存储字长：存储字中二进制的位数，即按照某个地址访问某个存储单元获取的二进制数据的位数；</li>
+<li>由多个存储单元构成的存储器件</li>
+</ul>
+</li>
+<li><p>主存储器中，什么是 MAR，什么是 MDR，存储器的最大容量由什么决定？</p>
+<ul>
+<li>MAR： 存储地址寄存器，保存需要访问的存储单元地址。反应存储单元的个数</li>
+<li>MDR： 存储数据寄存器，缓存读出/写入存储单元的数据。反应存储字长<br>-</li>
+</ul>
+</li>
+<li><p>什么是机器字长，什么是存储字长？</p>
+<ul>
+<li>机器字长：CPU 一次能够处理的二进制数据的位数</li>
+<li>存储字长：按照某个地方访问某个存储单元获取的二进制数据的位数</li>
+</ul>
+</li>
+</ul>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+  </section>
+
+  
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="page/2/">2</a><a class="page-number" href="page/3/">3</a><a class="extend next" rel="next" href="page/2/"><i class="fa fa-angle-right"></i></a>
+  </nav>
+
+
+
+          </div>
+          
+
+
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="/images/avatar.gif" alt="zander">
+            
+              <p class="site-author-name" itemprop="name">zander</p>
+              <p class="site-description motion-element" itemprop="description">万丈红尘三杯酒，千秋大业一壶茶。</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">25</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="categories/index.html">
+                  <span class="site-state-item-count">11</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="tags/index.html">
+                  <span class="site-state-item-count">37</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/itwebbers" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="mailto:zander5211314@gmail.com" target="_blank" title="E-Mail">
+                      
+                        <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://zhuanlan.zhihu.com/zander" target="_blank" title="知乎专栏">
+                      
+                        <i class="fa fa-fw fa-知乎专栏"></i>知乎专栏</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://zhuanlan.zhihu.com/itwebber" target="_blank" title="zhihu">
+                      
+                        <i class="fa fa-fw fa-zhihu"></i>zhihu</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Itwebbers. 当前呈现版本 1.0.0</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+
+  
+
+
+  <script type="text/javascript" src="js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>

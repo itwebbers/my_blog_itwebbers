@@ -36,8 +36,8 @@ external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
 # 开启静态资源路径
-post_asset_folder: false
-relative_link: false
+post_asset_folder: true
+relative_link: true
 future: true
 highlight:
   enable: true
