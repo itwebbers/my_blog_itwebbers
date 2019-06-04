@@ -83,7 +83,6 @@ deploy:
   # repo: https://github.com/itwebbers/itwebbers.github.io
   repo: https://github.com/itwebbers/itwebbers.github.io.git
   branch: master
-
 # search
 search:
 path: search.xml
